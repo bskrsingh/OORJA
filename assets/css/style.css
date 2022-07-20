@@ -55,10 +55,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
-}
-#header.header-transparent {
-  background: none;
+  background: #1e4356a1;
 }
 #header.header-scrolled {
   background: rgba(30, 67, 86, 0.8);
@@ -80,7 +77,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 140px;
+  max-height: 111px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 2px 2px 0px #d71818bd;
 }
 
 /* #main {
@@ -135,7 +134,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #ffffffd1;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -264,75 +263,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 90vh;
-  overflow: hidden;
-  position: relative;
-}
-#hero::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 130%;
-  height: 95%;
-  background: url("../img/oorjaBG.jpg") center top no-repeat;
-  z-index: 0;
-  /* border-radius: 0 0 50% 50%; */
-  transform: translateX(-50%) rotate(0deg);
-}
-#hero::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 130%;
-  height: 100%;
-  /* background: #ff0000; */
-  opacity: 0.3;
-  z-index: 0;
-  /* border-radius: 0 0 50% 50%; */
-  transform: translateX(-50%) translateY(18px) rotate(2deg);
-}
-#hero .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
-}
-#hero p {
-  width: 80%;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-}
+.bannerSection{padding:0}
 .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -350,6 +281,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.8s;
   border: 2px solid #ff0000;
 }
+.carousel-caption{background-color:#0000004f;padding:35px;top:50% !important;bottom:auto;}
 .btn-get-started:hover {
   background: #ff0000;
   color: #fff !important;
