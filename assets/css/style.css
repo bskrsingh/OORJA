@@ -16,7 +16,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
-
+.carousel-caption h3{font-size:2.75rem;}
+.carousel-caption p{font-size:1.5rem}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -55,7 +56,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356a1;
+  background: #1e4356d4;
 }
 #header.header-scrolled {
   background: rgba(30, 67, 86, 0.8);
@@ -281,7 +282,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.8s;
   border: 2px solid #ff0000;
 }
-.carousel-caption{background-color:#0000004f;padding:35px;top:50% !important;bottom:auto;}
+.carousel-caption{background-color:#0000003b;padding:35px;top:50% !important;bottom:auto;}
 .btn-get-started:hover {
   background: #ff0000;
   color: #fff !important;
