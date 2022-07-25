@@ -359,10 +359,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .carousel-caption {
   padding: 15px 0;
-  top: 15% !important;
+  top: 30% !important;
 }
 .carousel-caption p {
-  font-size: 1.25rem;
+  font-size: 15px;
   font-weight: 800;
 }
 #header {
@@ -372,8 +372,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   max-height: 88px;
 }
 .carousel-caption h3 {
-  font-size: 2rem;
+  font-size: 20px;
 }
+.carousel-indicators{margin-bottom:0 !important;}
 }
 
 /*--------------------------------------------------------------
