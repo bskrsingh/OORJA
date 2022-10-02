@@ -1961,8 +1961,12 @@ section {
   color: #a2cce3;
 }
 .innerSec{margin:10px 30px}
-.innerSec i {
+.innerSecNew{padding:0}
+.innerSec i, .innerSecNew i {
   font-size: 15px !important;
-  padding-right: 4px;
   color: #ff0000;
+  margin:10px
 }
+li{list-style:none;}
+.colorBgHover{cursor:pointer;}
+.colorBgHover:hover{background-color:red;color:#fff}
