@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 0;
   max-height: 111px;
   border-radius: 10px 10px;
-  box-shadow: 3px 2px 2px 0px #d71818bd;
+  box-shadow: 3px 2px 2px 0px #d71818bd;background-color:#fff;
 }
 
 /* #main {
@@ -1971,3 +1971,15 @@ li{list-style:none;}
 .colorBgHover{cursor:pointer;}
 .colorBgHover:hover{background-color:red;color:#fff}
 .innerSecNew li{font-size:15px;}
+.headingJob{font-size:12px;font-weight:600;text-transform:uppercase;}
+.accordion-button{padding:0.7rem 1.25rem;}
+ul.career li{padding:10px 10px 0;line-height:23px;font-size:14px;}
+ul.career .bi{font-size:15px;}
+button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+.accordion-button{color: #1b1b1b !important;background-color: #d8d8d8 !important;border-bottom:1px solid #a5a5a5eb;outline:none;}
+.accordion-button:hover,.accordion-button:focus{background-color:#b0b0b0;color:#000;outline:none;}
+.accordion-button::after {color:#fff !important}
+.accordion-body p{font-size:14px;line-height:23px;}
+.accordion-body{background-color:#f5f5f5;}
